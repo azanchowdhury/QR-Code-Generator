@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+<!--QR Code Generator by Findduzz-->
+<div id="qr-form-container">
+<input class="form-control" id="qr-input-content" placeholder="Enter your Content or URL" required="" type="text" />
+<br />        
+<button id="qr-call-btn" type="button"><b>Generate</b></button>                 
+</div>
+<div id="qr-error-msg-container" style="margin: auto;">
+<p><br /></p>
+<div id="qr-error-msg" style="border-radius: 0%; font-family: poppins, sans-serif; margin: auto;">
+<strong> Error! You cannot generate QR Code without any content.</strong>
+<button id="close-qr-error" style="background-color: transparent; border: none; font-size: 16px; font-weight: bold;" type="button">❎</button>
+</div>
+</div>
+<div class="text-center" id="qr-download-section">
